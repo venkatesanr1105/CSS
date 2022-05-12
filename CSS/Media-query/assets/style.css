@@ -1,0 +1,32 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box
+{
+    width: 50%;
+    height: 50%;
+    border: 1px solid lightgray;
+    background-color: lightgreen;
+    color: violet; 
+    font-size: 60px;
+    text-align: center; 
+}
+
+@media screen and (max-width: 576px) {
+    .box
+{
+    width: 50%;
+    height: 50%;
+    border: 1px solid lightgray;
+    background-color: silver;
+    color: red; 
+    font-size: 28.8px;
+    text-align: center; 
+}
+    
+}

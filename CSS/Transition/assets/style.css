@@ -1,0 +1,26 @@
+html
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.square
+{
+    width: 200px;
+    height: 200px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    transition: width 2s, heigth 2s, background-color 2s, border-radius 2s, transform 2s ;
+}
+
+.square:hover
+{
+    width: 400px;
+    height: 400px;
+    background-color: orange;
+    border-radius: 30px;
+    transform: rotate(180deg);
+}

@@ -1,0 +1,33 @@
+html
+{
+    display: flex;
+    padding: 5rem;
+    justify-content: around;
+    height: 100vh;
+}
+
+.circle
+{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: dodgerblue;
+    overflow: hidden;
+}
+
+#first
+{
+    animation: 3s linear 1s infinite alternate slidein;
+}
+
+@keyframes slidein
+{
+    from{
+        margin-left: 0px;
+    }
+    to
+    {
+        margin-left: 900px;
+    }
+}
